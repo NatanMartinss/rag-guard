@@ -1,0 +1,10 @@
+{
+  "name": "rag-guard-demo",
+  "private": true,
+  "type": "module",
+  "description": "Simulation behind the interactive demo at https://natanmartins.com.br/projects/rag-guard/",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test *.test.ts"
+  }
+}
